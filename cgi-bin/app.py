@@ -30,6 +30,6 @@ query = form['count'].value
 print ('Content-type: text/html; charset=UTF-8')
 print(html_body % query)
 
-cmd = "python /home/tenma/Desktop/class/tech_kawamoto/Nagata/Server/cgi-bin/control.py"
+cmd = "python /home/tenma/Desktop/class/tech_kawamoto/Nagata/Server/control.py"
 augs = shlex.split(cmd)
 p = subprocess.Popen(augs)
